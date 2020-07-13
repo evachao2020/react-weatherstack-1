@@ -1,0 +1,49 @@
+.searchBar {
+    margin-top: 20px;
+}
+
+.weatherTopDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.weatherContainer {
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    width: 500px;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    flex-direction: column;
+    /*align-items:*/
+
+    border-radius: 10px;
+}
+
+.weatherColumn {
+    display: flex;      /********/
+    justify-content:space-around;      /********/
+    margin: 20px;      /********/
+    align-items: center;      /********/
+}
+
+.weatherRow {
+    /*border: 1px solid white;*/
+}
+
+.listPicContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.listPicContainerDiv {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
